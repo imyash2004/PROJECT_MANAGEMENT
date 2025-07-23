@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e4e3780-029e-461a-bbe7-9a67df15078a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/config/WebsocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/controller/RealTimeChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bin/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bin/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/DTO/IssueDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/DTO/IssueDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/controller/IssueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/controller/IssueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/controller/SubscriptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/controller/SubscriptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/domain/PlanType.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/domain/PlanType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/domain/SubscriptionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/domain/SubscriptionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/exception/MailsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/exception/MailsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/Invitation.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/Invitation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/Issue.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/Issue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/RestaurantDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/RestaurantDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/repository/InviteTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/repository/InviteTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/repository/IssueRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/repository/IssueRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/repository/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/repository/ProjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/repository/SubscriptionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/repository/SubscriptionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/request/CreateCommentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/request/CreateCommentRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/request/IssueRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/request/IssueRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/request/ProjectInvitationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/request/ProjectInvitationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/request/TokenValidationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/request/TokenValidationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/response/PaymentLinkResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/response/PaymentLinkResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/CommentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/InvitationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/InvitationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/InviteTokenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/InviteTokenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/IssueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/IssueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/IssueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/IssueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/SubscriptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/SubscriptionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/SubscriptionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/service/SubscriptionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/zosh/util/TokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/zosh/util/TokenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/jsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/custome/select.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/custome/select.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/avatar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/avatar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/badge.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/badge.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/dialog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/drawer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/drawer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/dropdown-menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/dropdown-menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/input.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/label.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/label.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/pagination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/pagination.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/radio-group.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/radio-group.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/scroll-area.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/scroll-area.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/select.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/select.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/sheet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/sheet.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/skeleton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/skeleton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ui/tabs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ui/tabs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Auth/Auth.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Auth/Auth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Auth/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Auth/Auth.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Auth/login/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Auth/login/Login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Auth/login/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Auth/login/login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Auth/signup/SignupForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Auth/signup/SignupForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Issue/CommentCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Issue/CommentCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Issue/CreateCommentForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Issue/CreateCommentForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Issue/CreateIssueForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Issue/CreateIssueForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Issue/IssueCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Issue/IssueCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Issue/IssueDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Issue/IssueDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Issue/IssueList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Issue/IssueList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Issue/IssuePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Issue/IssuePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Issue/UserList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Issue/UserList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Loader/Loader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Loader/Loader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Project/AcceptInvitation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Project/AcceptInvitation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Project/ChatBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Project/ChatBox.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Project/CreateProjectForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Project/CreateProjectForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Project/FilterIcon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Project/FilterIcon.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Project/FilterSheet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Project/FilterSheet.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Project/InviteUserForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Project/InviteUserForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Project/ProjectCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Project/ProjectCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Project/ProjectDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Project/ProjectDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Project/ProjectList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Project/ProjectList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Project/UpdateProjectForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Project/UpdateProjectForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Project/filterData.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Project/filterData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/sidebar/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/sidebar/SideBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/subscription/Subscription.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/subscription/Subscription.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/subscription/SubscriptionCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/subscription/SubscriptionCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/subscription/UpgradeSuccess.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/subscription/UpgradeSuccess.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Auth/Action.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Auth/Action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Auth/ActionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Auth/ActionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Auth/Reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Auth/Reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Chat/Action.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Chat/Action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Chat/ActionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Chat/ActionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Chat/Reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Chat/Reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Comment/comment.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Comment/comment.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Comment/comment.actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Comment/comment.actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Comment/comment.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Comment/comment.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Issue/ActionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Issue/ActionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Issue/Issue.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Issue/Issue.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Issue/Issue.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Issue/Issue.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Payment/Action.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Payment/Action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Payment/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Payment/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Project/ActionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Project/ActionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Project/Project.Action.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Project/Project.Action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Project/Project.Reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Project/Project.Reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Subscription/Action.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Subscription/Action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Subscription/Reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Subscription/Reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/Subscription/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/Subscription/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="309dqLW6jDjgtYT4ojZo8pEc5fG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/yashagarwal/Downloads/Project Management",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e4e3780-029e-461a-bbe7-9a67df15078a" name="Changes" comment="" />
+      <created>1753043911625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753043911625</updated>
+      <workItem from="1753043912622" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
