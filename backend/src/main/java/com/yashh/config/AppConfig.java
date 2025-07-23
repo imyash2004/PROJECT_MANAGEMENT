@@ -50,6 +50,7 @@ public class AppConfig {
 						"http://localhost:5173",
 						"http://localhost:3000",
 						"https://projectmanagement-k34ilb86d-yashs-projects-9cbaf0c6.vercel.app",
+						"https://projectmanagement-woad.vercel.app",
 						"https://project-management-eq6p.onrender.com"
 						));
 
