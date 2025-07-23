@@ -48,7 +48,9 @@ public class AppConfig {
 				// Production configuration with specific origins
 				cfg.setAllowedOrigins(Arrays.asList(
 						"http://localhost:5173",
-						"https://project-management-react-plum.vercel.app"));
+						"http://localhost:3000",
+						"https://projectmanagement-k34ilb86d-yashs-projects-9cbaf0c6.vercel.app"
+						));
 
 				cfg.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
 				cfg.setAllowCredentials(true);
