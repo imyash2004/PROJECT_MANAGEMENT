@@ -4,8 +4,8 @@ import axios from 'axios';
 // Environment-based API URL configuration
 const getApiBaseUrl = () => {
   if (import.meta.env.PROD) {
-    // Production: Use environment variable or fallback
-    return import.meta.env.VITE_API_BASE_URL || 'https://your-backend-url.onrender.com';
+    // Production: Use environment variable or fallback to deployed backend
+    return import.meta.env.VITE_API_BASE_URL || 'https://project-management-eq6p.onrender.com';
   } else {
     // Development: Use localhost
     return 'http://localhost:5054';

@@ -40,7 +40,7 @@ A robust Spring Boot backend API for the Project Management System, providing se
 - **Spring Security** - Authentication and authorization
 
 ### Database & Persistence
-- **MySQL 8** - Primary database
+- **MySQL8** - Primary database
 - **Hibernate** - ORM framework
 - **HikariCP** - Connection pooling
 
