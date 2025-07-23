@@ -45,11 +45,11 @@ public class AppConfig {
 			public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
 				CorsConfiguration cfg = new CorsConfiguration();
 
-				// Production configuration with specific origins
-				cfg.setAllowedOrigins(Arrays.asList(
-						"http://localhost:5173",
-						"http://localhost:3000",
-						"https://projectmanagement-k34ilb86d-yashs-projects-9cbaf0c6.vercel.app"
+				// Production configuration with flexible patterns
+				cfg.setAllowedOriginPatterns(Arrays.asList(
+						"http://localhost:*",
+						"https://*.vercel.app",
+						"https://*.onrender.com"
 						));
 
 				cfg.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
