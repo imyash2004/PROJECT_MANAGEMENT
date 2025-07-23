@@ -1,0 +1,2 @@
+# Render deployment configuration
+web: java -Dserver.port=$PORT -jar target/projectmanagement-0.0.1-SNAPSHOT.jar
