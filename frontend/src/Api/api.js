@@ -1,11 +1,22 @@
 
 import axios from 'axios';
-const LOCALHOST='http://localhost:5054'
 
-export const API_BASE_URL = LOCALHOST
+// Environment-based API URL configuration
+const getApiBaseUrl = () => {
+  if (import.meta.env.PROD) {
+    // Production: Use environment variable or fallback
+    return import.meta.env.VITE_API_BASE_URL || 'https://your-backend-url.onrender.com';
+  } else {
+    // Development: Use localhost
+    return 'http://localhost:5054';
+  }
+};
+
+export const API_BASE_URL = getApiBaseUrl();
 
 const api = axios.create({
   baseURL: API_BASE_URL,
+  timeout: 15000, // Increased timeout for production
 });
 
 // Use interceptors to dynamically set the Authorization header
@@ -41,7 +52,10 @@ api.interceptors.response.use(
       if (error.response.status === 401) {
         console.error('Authentication error - clearing token');
         localStorage.removeItem('jwt');
-        // You could dispatch a logout action here if needed
+        // Redirect to login page
+        if (window.location.pathname !== '/signin') {
+          window.location.href = '/signin';
+        }
       }
     } else if (error.request) {
       // The request was made but no response was received

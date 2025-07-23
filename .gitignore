@@ -8,6 +8,10 @@ backend/src/main/resources/application-dev.properties
 .env.local
 .env.development
 .env.production
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
 
 # IDE files
 .vscode/
